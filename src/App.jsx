@@ -35,10 +35,13 @@ class App extends React.Component {
   }
 
   Onback =(e)=>{
-    this.setState({
-      Display_Detail: false,
-      Detail : []
-    })
+
+      this.setState({
+        searchfiled : '',      
+        Display_Detail: false,
+        Detail : []
+      })
+    
   }
 
   Ondetail =(country)=>{
